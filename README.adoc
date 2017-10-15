@@ -1,0 +1,27 @@
+Kotlin Job Processor
+====================
+
+This is a trivial Kotlin project to practice Kotlin.  It uses the new Java concurrency primitives to get multi-threaded code without manually managing threads.
+
+To compile and run tests
+
+[source,console]
+----
+$ gradle build
+----
+
+To compile and run
+
+[source,console]
+----
+$ gradle run
+----
+
+To build a jar
+
+[source,console]
+----
+$ gradle jar
+----
+
+The jar will be in ./build/libs/
