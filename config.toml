@@ -1,5 +1,5 @@
 [database]
-type = "mysql"
+type = "h2"
 username = "fake_etl"
 password = "fake_etl"
 database = "fake_etl"

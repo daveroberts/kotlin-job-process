@@ -18,7 +18,7 @@ enum class JobType {
   EWEB,
   SPECIAL;
   companion object {
-    fun random() : JobType = JobType.PACK
+    fun random() : JobType = JobType.values()[random.nextInt(3)]
   }
 }
 
@@ -73,9 +73,9 @@ object Jobs {
       JobType.PACK -> Pack.prepare(job)
       JobType.EWEB -> EWeb.prepare(job)
       JobType.SPECIAL -> Special.prepare(job)
-      else -> {
+      /*else -> {
         //Jobs.fail(job)
-      }
+      }*/
     }
   }
 
